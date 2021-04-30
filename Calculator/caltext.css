@@ -1,0 +1,210 @@
+@charset="UTF-8"
+
+body{
+	
+}
+.main{
+	width: 1266px;
+	height: 768px;
+	background-color: ;
+	display: flex;
+	flex-direction: column;
+}
+.p{
+	pointer-events: none;
+}
+.display{
+	width: 100%;
+	height: 50%;
+	background-color: ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contents-display{
+	width: 98%;
+	height: 95%;
+	border: 3px solid #999;
+	border-radius: 1em;
+	background-color: black;
+	overflow: scroll;
+	display: flex;
+	flex-direction: column;
+}
+
+.caltext{
+	width: 100%;
+	height: 60px;
+	/*position: relative;*/
+	background-color: ;
+	display:  flex;
+	align-items: center;
+}
+.caltext p{
+	display: inline-block;
+	font-size: 30px;
+	color: white;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+.command{
+	width: 100%;
+	height: 50%;
+	background-color: silver;
+	display: flex;
+	border-radius: 1em;
+}
+.calculation{
+	width: 50%;
+	height: 100%;
+	background-color: ;
+	display: flex;
+}
+.bace-cal{
+	width: 75%;
+	height: 100%;
+	background-color: ;
+	display: flex;
+	flex-direction: column;
+}
+.parecal{
+	width: 100%;
+	height: 25%;
+	background-color: ;
+	display: flex;
+	justify-content: space-between;
+}
+
+.cal{
+	width: 30%;
+	height: 80%;
+	background-color: white;
+	margin: 2% 1% 1% 1%;
+	border-radius: 1em;
+	box-shadow: 0px 3px 5px #333;
+	display:  flex;
+	justify-content: center;
+	align-items: center;
+}
+.cal p{
+	display: inline-block;
+	pointer-events: none;
+}
+#nine{
+	background-color: silver;
+	box-shadow: none;
+}
+.next{
+	width: 98%;
+	height: 88%;
+	background-color: white;
+	margin: 1%;
+	border-radius: 1em;
+	box-shadow: 0px 3px 5px #333;
+	display:  flex;
+	justify-content: center;
+	align-items: center;
+}
+.next p{
+	display: inline-block;
+	pointer-events: none;
+}
+.bace-cal-work{
+	width: 25%;
+	height: 100%;
+	background-color: ;
+	position: relative;
+}
+.equal{
+	width: 90%;
+	height: 45%;
+	position: absolute;
+	top: 2.5%;
+	left: 5%;
+	background-color: white;
+	border-radius: 1em;
+	box-shadow: 0px 3px 5px #333;
+	display:  flex;
+	justify-content: center;
+	align-items: center;
+}
+.ac{
+	width: 90%;
+	height: 45%;
+	position: absolute;
+	top: 52.5%;
+	left: 5%;
+	background-color: white;
+	border-radius: 1em;
+	box-shadow: 0px 3px 5px #333;
+	display:  flex;
+	justify-content: center;
+	align-items: center;
+}
+.numbers{
+	width: 37.5%;
+	height: 100%;
+	background-color: ;
+	display: flex;
+	flex-direction: column;
+	
+}
+.numbers > div{
+	width: 95%;
+	height: 33.33%;
+	background-color: ;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 2.5%;
+}
+.number{
+	width: 30%;
+	height: 80%;
+	background-color: white;
+	border-radius: 1em;
+	box-shadow: 0px 3px 5px #333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.number p{
+	display: inline-block;
+	pointer-events: none;
+}
+.num-works{
+	width: 12.5%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.delete{
+	width: 82%;
+	height: 46%;
+	background-color: white;
+	margin: 6%;
+	border-radius: 1em;
+	box-shadow: 0px 3px 5px #333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dalete p{
+	display: inline-block;
+	pointer-events: none;
+}
+.breaket{
+	width: 82%;
+	height: 20%;
+	background-color: white;
+	margin: 6%;
+	border-radius: 1em;
+	box-shadow: 0px 3px 5px #333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.breaket p{
+	display: inline-block;
+	pointer-events: none;
+}
